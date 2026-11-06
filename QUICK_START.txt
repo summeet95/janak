@@ -1,0 +1,54 @@
+# Quick Start Guide - AIC Inventory Management System
+
+## Prerequisites
+
+Install MongoDB Community Edition:
+1. Download: https://www.mongodb.com/try/download/community
+2. Run the installer and follow the wizard
+3. During installation, make sure "Install MongoDB as a Service" is checked
+
+## Installation & Running (3 Steps)
+
+### Step 1: Run Setup
+Double-click `setup.bat`
+- This will create the virtual environment
+- Install all Python packages
+- Initialize the database
+
+### Step 2: Start MongoDB (if not auto-started)
+- Press `Win + R`, type `services.msc`
+- Find "MongoDB Server" and click "Start"
+
+### Step 3: Start the Application
+Double-click `run.bat`
+- The app will start at `http://localhost:5000`
+- Your browser should open automatically
+
+## First Usage
+
+1. **Register**: Click "Register" and create an account
+2. **Login**: Use your credentials to login
+3. **Start**: Use the sidebar to navigate and manage your inventory
+
+## Troubleshooting
+
+### "Cannot connect to MongoDB"
+- Make sure MongoDB is running (Services > MongoDB Server)
+- Check if port 27017 is not blocked
+
+### "Address already in use"
+- Another application is using port 5000
+- Close other Flask apps or restart your computer
+
+### "Module not found errors"
+- Run `setup.bat` again
+- Make sure you're running it as Administrator
+
+## Project Location
+`c:\Users\summe\Music\sulav\janak\Inventory_App_Local\`
+
+## Support
+See README.md for complete documentation and API details.
+
+---
+Enjoy using your new Inventory Management System!
